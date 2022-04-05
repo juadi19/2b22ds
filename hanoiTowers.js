@@ -99,3 +99,4 @@ console.log(base.toString());
 base.solve();
 const movimientos = Math.pow(2, base.height) - 1;
 console.log("Total de movimientos: " + movimientos);
+
