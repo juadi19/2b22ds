@@ -20,7 +20,7 @@ function mergeSort(arr) {
         }
         if (right < arr.length) {
             mergeArrays(arr, left, left + step, right, arr.length);
-            pasos++
+            pasos++;
         }
         step *= 2;
     }
@@ -91,4 +91,5 @@ function CArray(numElements) {
         this.dataStore[i] = 0;
     }
 }
+
 
